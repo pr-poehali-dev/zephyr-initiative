@@ -20,8 +20,129 @@ interface Product {
 }
 
 const products: Product[] = [
+  // ── Для мальчиков ──
   {
-    id: 1,
+    id: 101,
+    name: "Носки с динозаврами",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/71d5ca4d-93c5-4d0e-b57b-258de811de53.jpg",
+    value: "Носки с динозаврами",
+    emoji: "🦕",
+    categories: ["all", "boys", "funny"],
+    badge: "Хит",
+    badgeColor: "bg-orange-500",
+  },
+  {
+    id: 102,
+    name: "Носки с ракетами",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/11abf2c6-0cf8-46e0-bd68-6b1164543a32.jpg",
+    value: "Носки с ракетами",
+    emoji: "🚀",
+    categories: ["all", "boys"],
+  },
+  {
+    id: 103,
+    name: "Носки с акулами",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/6924cb00-818a-4499-b392-86d8a0a4f810.jpg",
+    value: "Носки с акулами",
+    emoji: "🦈",
+    categories: ["all", "boys", "funny"],
+  },
+  {
+    id: 104,
+    name: "Носки с роботами",
+    price: "369 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/c8c09e79-7415-47f0-9e6d-226cbbd5e703.jpg",
+    value: "Носки с роботами",
+    emoji: "🤖",
+    categories: ["all", "boys"],
+    badge: "Новинка",
+    badgeColor: "bg-blue-500",
+  },
+  {
+    id: 105,
+    name: "Носки с футболом",
+    price: "329 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/fd82c704-9f6b-400b-9cc0-6dcd92dbf3ad.jpg",
+    value: "Носки с футболом",
+    emoji: "⚽",
+    categories: ["all", "boys"],
+  },
+  // ── Для девочек ──
+  {
+    id: 201,
+    name: "Носки с единорогом",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/a338a41c-9aa9-4df8-a528-703bae19e892.jpg",
+    value: "Носки с единорогом",
+    emoji: "🦄",
+    categories: ["all", "girls", "funny"],
+    badge: "Хит",
+    badgeColor: "bg-pink-500",
+  },
+  {
+    id: 202,
+    name: "Носки с клубникой",
+    price: "329 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/93d6146e-ac8e-47f2-90f0-544be452109c.jpg",
+    value: "Носки с клубникой",
+    emoji: "🍓",
+    categories: ["all", "girls"],
+  },
+  {
+    id: 203,
+    name: "Носки с бабочками",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/44ab43ca-0e9a-4ed5-90b7-b4e0fb2d4871.jpg",
+    value: "Носки с бабочками",
+    emoji: "🦋",
+    categories: ["all", "girls"],
+  },
+  {
+    id: 204,
+    name: "Носки «Звёзды и луна»",
+    price: "369 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/283abd5f-808f-4d43-b3c0-b64b9f964605.jpg",
+    value: "Носки Звёзды и луна",
+    emoji: "⭐",
+    categories: ["all", "girls"],
+    badge: "Новинка",
+    badgeColor: "bg-purple-500",
+  },
+  {
+    id: 205,
+    name: "Носки с пирожными",
+    price: "349 ₽",
+    sizes: "20–35",
+    ageGroup: "Дети 4–12 лет",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/1800c8d0-959c-4527-b9ab-ab03dc619202.jpg",
+    value: "Носки с пирожными",
+    emoji: "🧁",
+    categories: ["all", "girls", "funny"],
+  },
+  // ── Короткие ──
+  {
+    id: 301,
     name: "Носки с котом",
     price: "399 ₽",
     sizes: "36–45",
@@ -29,23 +150,25 @@ const products: Product[] = [
     image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/3bd92123-0c68-4b94-83c6-ff678b7b24d9.jpg",
     value: "Носки с котом",
     emoji: "🐱",
-    categories: ["all", "funny", "short"],
+    categories: ["all", "short", "funny"],
     badge: "Хит",
     badgeColor: "bg-orange-500",
   },
   {
-    id: 2,
-    name: "Носки с кактусом",
-    price: "399 ₽",
+    id: 302,
+    name: "Носки с авокадо",
+    price: "379 ₽",
     sizes: "36–45",
     ageGroup: "Взрослые",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/644a5e45-441d-483d-8f12-22df06d599e4.jpg",
-    value: "Носки с кактусом",
-    emoji: "🌵",
-    categories: ["all", "funny", "short"],
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/9434d8de-f153-4654-b12d-0a59bd572448.jpg",
+    value: "Носки с авокадо",
+    emoji: "🥑",
+    categories: ["all", "short", "funny"],
+    badge: "Новинка",
+    badgeColor: "bg-emerald-500",
   },
   {
-    id: 3,
+    id: 303,
     name: "Носки в горошек",
     price: "299 ₽",
     sizes: "36–45",
@@ -56,46 +179,30 @@ const products: Product[] = [
     categories: ["all", "short"],
   },
   {
-    id: 4,
-    name: "Носки с динозаврами",
-    price: "349 ₽",
-    sizes: "20–35 (детские)",
-    ageGroup: "Дети 4–12 лет",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/71d5ca4d-93c5-4d0e-b57b-258de811de53.jpg",
-    value: "Носки с динозаврами",
-    emoji: "🦕",
-    categories: ["all", "boys", "funny", "short"],
-    badge: "Детские",
-    badgeColor: "bg-green-500",
+    id: 304,
+    name: "Носки «Молния»",
+    price: "319 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/ecc3b225-5bf2-44b4-9cc0-d8d6b5b86b02.jpg",
+    value: "Носки Молния",
+    emoji: "⚡",
+    categories: ["all", "short"],
   },
   {
-    id: 5,
-    name: "Носки с единорогом",
-    price: "349 ₽",
-    sizes: "20–35 (детские)",
-    ageGroup: "Дети 4–12 лет",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/a338a41c-9aa9-4df8-a528-703bae19e892.jpg",
-    value: "Носки с единорогом",
-    emoji: "🦄",
-    categories: ["all", "girls", "funny", "short"],
-    badge: "Девочки",
-    badgeColor: "bg-pink-500",
+    id: 305,
+    name: "Носки «Геометрия»",
+    price: "319 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/c90f8e3b-fba2-4f60-9319-e221603a3b03.jpg",
+    value: "Носки Геометрия",
+    emoji: "🔷",
+    categories: ["all", "short"],
   },
+  // ── Длинные / Гольфы ──
   {
-    id: 6,
-    name: "Носки с ракетами",
-    price: "349 ₽",
-    sizes: "20–35 (детские)",
-    ageGroup: "Дети 4–12 лет",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/11abf2c6-0cf8-46e0-bd68-6b1164543a32.jpg",
-    value: "Носки с ракетами",
-    emoji: "🚀",
-    categories: ["all", "boys", "short"],
-    badge: "Мальчики",
-    badgeColor: "bg-blue-500",
-  },
-  {
-    id: 7,
+    id: 401,
     name: "Гольфы радужные",
     price: "549 ₽",
     sizes: "36–45",
@@ -104,32 +211,114 @@ const products: Product[] = [
     value: "Гольфы радужные",
     emoji: "🌈",
     categories: ["all", "long", "funny"],
-    badge: "Длинные",
+    badge: "Хит",
     badgeColor: "bg-purple-500",
   },
   {
-    id: 8,
-    name: "Носки с авокадо",
-    price: "379 ₽",
+    id: 402,
+    name: "Гольфы «Шахматы»",
+    price: "499 ₽",
     sizes: "36–45",
     ageGroup: "Взрослые",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/9434d8de-f153-4654-b12d-0a59bd572448.jpg",
-    value: "Носки с авокадо",
-    emoji: "🥑",
-    categories: ["all", "funny", "short"],
-    badge: "Новинка",
-    badgeColor: "bg-emerald-500",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/0c760a53-d326-474a-88ff-c2971a9f2e30.jpg",
+    value: "Гольфы Шахматы",
+    emoji: "♟️",
+    categories: ["all", "long"],
   },
   {
-    id: 9,
+    id: 403,
+    name: "Гольфы «Зигзаг»",
+    price: "529 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/a1dcb48f-448d-4461-866e-0bed0fd40f22.jpg",
+    value: "Гольфы Зигзаг",
+    emoji: "〰️",
+    categories: ["all", "long"],
+  },
+  {
+    id: 404,
+    name: "Гольфы «Аргайл»",
+    price: "549 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/07b648de-24e2-48be-b332-1ac2fdcf0089.jpg",
+    value: "Гольфы Аргайл",
+    emoji: "🔶",
+    categories: ["all", "long"],
+    badge: "Новинка",
+    badgeColor: "bg-amber-500",
+  },
+  {
+    id: 405,
+    name: "Гольфы «Фламинго»",
+    price: "579 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/7352316e-e0b6-4c0d-bb24-805476025bac.jpg",
+    value: "Гольфы Фламинго",
+    emoji: "🦩",
+    categories: ["all", "long", "funny"],
+  },
+  // ── Смешные ──
+  {
+    id: 501,
     name: "Носки с пиццей",
     price: "379 ₽",
     sizes: "36–45",
     ageGroup: "Взрослые",
-    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/2e2ca1ac-f0cd-474a-a704-3b415839b5ec.jpg",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/2e2ac1ac-f0cd-474a-a704-3b415839b5ec.jpg",
     value: "Носки с пиццей",
     emoji: "🍕",
-    categories: ["all", "funny", "short"],
+    categories: ["all", "funny"],
+  },
+  {
+    id: 502,
+    name: "Носки с суши",
+    price: "399 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/ae18e2cc-d993-4616-a287-526ee9ea8391.jpg",
+    value: "Носки с суши",
+    emoji: "🍣",
+    categories: ["all", "funny"],
+    badge: "Хит",
+    badgeColor: "bg-orange-500",
+  },
+  {
+    id: 503,
+    name: "Носки с корги",
+    price: "399 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/0dd63b09-1171-4e18-b5c5-477cc8265b44.jpg",
+    value: "Носки с корги",
+    emoji: "🐕",
+    categories: ["all", "funny"],
+  },
+  {
+    id: 504,
+    name: "Носки с пришельцами",
+    price: "419 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/ec760145-de9e-40df-b0d6-f071f3e342aa.jpg",
+    value: "Носки с пришельцами",
+    emoji: "👽",
+    categories: ["all", "funny"],
+    badge: "Новинка",
+    badgeColor: "bg-green-500",
+  },
+  {
+    id: 505,
+    name: "Носки с кактусом",
+    price: "399 ₽",
+    sizes: "36–45",
+    ageGroup: "Взрослые",
+    image: "https://cdn.poehali.dev/projects/ecd69a8f-1bc5-4cd9-adf9-35fc33ab4c1d/files/644a5e45-441d-483d-8f12-22df06d599e4.jpg",
+    value: "Носки с кактусом",
+    emoji: "🌵",
+    categories: ["all", "funny"],
   },
 ]
 
@@ -142,14 +331,6 @@ const filters: { id: Category; label: string; emoji: string }[] = [
   { id: "funny", label: "Смешные", emoji: "😂" },
 ]
 
-const sectionAnchors: { id: string; label: string }[] = [
-  { id: "boys", label: "Для мальчиков" },
-  { id: "girls", label: "Для девочек" },
-  { id: "short", label: "Короткие" },
-  { id: "long", label: "Длинные" },
-  { id: "funny", label: "Смешные" },
-]
-
 export default function Index() {
   const [activeFilter, setActiveFilter] = useState<Category>("all")
   const [orderOpen, setOrderOpen] = useState(false)
@@ -157,6 +338,7 @@ export default function Index() {
   const [submitted, setSubmitted] = useState(false)
 
   const filteredProducts = products.filter((p) => p.categories.includes(activeFilter))
+  const activeLabel = filters.find((f) => f.id === activeFilter)?.label ?? ""
 
   const openOrder = (productValue?: string) => {
     setFormData({ name: "", phone: "", product: productValue || "" })
@@ -169,21 +351,23 @@ export default function Index() {
     setSubmitted(true)
   }
 
+  const switchFilter = (cat: Category) => {
+    setActiveFilter(cat)
+    document.querySelector("#catalog")?.scrollIntoView({ behavior: "smooth" })
+  }
+
   return (
     <div className="min-h-screen bg-white">
       <HeroSection />
 
-      {/* Quick category nav strip */}
+      {/* Sticky filter strip */}
       <div className="sticky top-0 z-40 bg-white border-b border-gray-100 shadow-sm">
         <div className="container mx-auto px-4">
-          <div className="flex items-center gap-1 overflow-x-auto py-3 scrollbar-none">
+          <div className="flex items-center gap-1.5 overflow-x-auto py-3 scrollbar-none">
             {filters.map((f) => (
               <button
                 key={f.id}
-                onClick={() => {
-                  setActiveFilter(f.id)
-                  document.querySelector("#catalog")?.scrollIntoView({ behavior: "smooth" })
-                }}
+                onClick={() => switchFilter(f.id)}
                 className={`flex items-center gap-1.5 whitespace-nowrap px-4 py-2 rounded-full text-sm font-semibold transition-all duration-200 flex-shrink-0 ${
                   activeFilter === f.id
                     ? "bg-gray-900 text-white"
@@ -198,8 +382,8 @@ export default function Index() {
         </div>
       </div>
 
-      {/* Anchor sections for nav */}
-      {sectionAnchors.map((s) => <div key={s.id} id={s.id} />)}
+      {/* Anchors */}
+      <div id="boys" /><div id="girls" /><div id="short" /><div id="long" /><div id="funny" />
 
       {/* Catalog */}
       <section id="catalog" className="py-16 bg-slate-50">
@@ -214,8 +398,8 @@ export default function Index() {
             <h2 className="text-4xl md:text-5xl font-black tracking-wider text-gray-900 mb-3">КАТАЛОГ НОСКОВ</h2>
             <p className="text-lg text-gray-500">
               {activeFilter === "all"
-                ? `Все ${products.length} моделей`
-                : `${filteredProducts.length} моделей в категории «${filters.find((f) => f.id === activeFilter)?.label}»`}
+                ? `${filteredProducts.length} моделей`
+                : `${filteredProducts.length} моделей — ${activeLabel}`}
             </p>
           </motion.div>
 
@@ -237,14 +421,14 @@ export default function Index() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-5 max-w-7xl mx-auto">
             {filteredProducts.map((product, index) => (
               <motion.div
                 key={product.id}
                 layout
                 initial={{ opacity: 0, y: 24 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.07 }}
+                transition={{ duration: 0.35, delay: index * 0.05 }}
                 className="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-300 flex flex-col"
               >
                 <div className="relative aspect-square overflow-hidden bg-gray-50">
@@ -254,32 +438,32 @@ export default function Index() {
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                   {product.badge && (
-                    <span className={`absolute top-3 left-3 ${product.badgeColor} text-white text-xs font-bold px-2.5 py-1 rounded-full`}>
+                    <span className={`absolute top-2 left-2 ${product.badgeColor} text-white text-xs font-bold px-2 py-0.5 rounded-full`}>
                       {product.badge}
                     </span>
                   )}
                 </div>
 
-                <div className="p-5 flex flex-col flex-1">
-                  <div className="flex items-start gap-2 mb-1">
-                    <span className="text-xl mt-0.5">{product.emoji}</span>
-                    <h3 className="text-base font-bold text-gray-900 leading-tight">{product.name}</h3>
+                <div className="p-4 flex flex-col flex-1">
+                  <div className="flex items-start gap-1.5 mb-2">
+                    <span className="text-lg mt-0.5 flex-shrink-0">{product.emoji}</span>
+                    <h3 className="text-sm font-bold text-gray-900 leading-tight">{product.name}</h3>
                   </div>
 
-                  <div className="flex items-center gap-2 mb-3 flex-wrap">
-                    <span className="text-xs bg-blue-50 text-blue-700 font-semibold px-2.5 py-1 rounded-full">
+                  <div className="flex flex-wrap gap-1 mb-3">
+                    <span className="text-xs bg-blue-50 text-blue-700 font-semibold px-2 py-0.5 rounded-full">
                       {product.ageGroup}
                     </span>
-                    <span className="text-xs bg-gray-100 text-gray-600 font-semibold px-2.5 py-1 rounded-full">
+                    <span className="text-xs bg-gray-100 text-gray-600 font-semibold px-2 py-0.5 rounded-full">
                       р. {product.sizes}
                     </span>
                   </div>
 
-                  <p className="text-2xl font-black text-blue-600 mb-4 mt-auto">{product.price}</p>
+                  <p className="text-xl font-black text-blue-600 mb-3 mt-auto">{product.price}</p>
 
                   <button
                     onClick={() => openOrder(product.value)}
-                    className="w-full bg-gray-900 hover:bg-blue-600 text-white font-semibold py-2.5 px-4 rounded-xl transition-colors duration-300 text-sm"
+                    className="w-full bg-gray-900 hover:bg-blue-600 text-white font-semibold py-2 px-3 rounded-xl transition-colors duration-300 text-sm"
                   >
                     Заказать
                   </button>
@@ -326,7 +510,6 @@ export default function Index() {
             <span className="text-3xl font-black tracking-wider">
               <span className="text-blue-400">Crazy</span>Socks
             </span>
-
             <div className="flex flex-col md:flex-row items-center gap-6 md:gap-12">
               <a href="tel:+79991234567" className="flex items-center gap-3 text-gray-300 hover:text-white transition-colors">
                 <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center flex-shrink-0">
@@ -347,7 +530,6 @@ export default function Index() {
                 <span className="text-lg font-medium">Работаем с 10 до 19 по будням</span>
               </div>
             </div>
-
             <div className="pt-8 border-t border-gray-800 w-full text-center">
               <p className="text-gray-500 text-sm">© 2024 CrazySocks. Все права защищены.</p>
             </div>
@@ -365,7 +547,7 @@ export default function Index() {
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.3 }}
-            className="bg-white rounded-2xl p-8 w-full max-w-md shadow-2xl relative"
+            className="bg-white rounded-2xl p-8 w-full max-w-md shadow-2xl relative max-h-[90vh] overflow-y-auto"
           >
             <button
               onClick={() => setOrderOpen(false)}
@@ -395,7 +577,6 @@ export default function Index() {
                       className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
-
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-1">Номер телефона</label>
                     <input
@@ -407,7 +588,6 @@ export default function Index() {
                       className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                     />
                   </div>
-
                   <div>
                     <label className="block text-sm font-semibold text-gray-700 mb-1">Выбор товара</label>
                     <select
@@ -417,22 +597,43 @@ export default function Index() {
                       className="w-full border border-gray-200 rounded-xl px-4 py-3 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white"
                     >
                       <option value="" disabled>Выберите модель...</option>
-                      <optgroup label="Взрослые (р. 36–45)">
-                        <option value="Носки с котом">🐱 Носки с котом — 399 ₽</option>
-                        <option value="Носки с кактусом">🌵 Носки с кактусом — 399 ₽</option>
-                        <option value="Носки в горошек">⚫ Носки в горошек — 299 ₽</option>
-                        <option value="Гольфы радужные">🌈 Гольфы радужные — 549 ₽</option>
-                        <option value="Носки с авокадо">🥑 Носки с авокадо — 379 ₽</option>
-                        <option value="Носки с пиццей">🍕 Носки с пиццей — 379 ₽</option>
-                      </optgroup>
-                      <optgroup label="Детские (р. 20–35)">
+                      <optgroup label="🚀 Для мальчиков (р. 20–35)">
                         <option value="Носки с динозаврами">🦕 Носки с динозаврами — 349 ₽</option>
-                        <option value="Носки с единорогом">🦄 Носки с единорогом — 349 ₽</option>
                         <option value="Носки с ракетами">🚀 Носки с ракетами — 349 ₽</option>
+                        <option value="Носки с акулами">🦈 Носки с акулами — 349 ₽</option>
+                        <option value="Носки с роботами">🤖 Носки с роботами — 369 ₽</option>
+                        <option value="Носки с футболом">⚽ Носки с футболом — 329 ₽</option>
+                      </optgroup>
+                      <optgroup label="🦄 Для девочек (р. 20–35)">
+                        <option value="Носки с единорогом">🦄 Носки с единорогом — 349 ₽</option>
+                        <option value="Носки с клубникой">🍓 Носки с клубникой — 329 ₽</option>
+                        <option value="Носки с бабочками">🦋 Носки с бабочками — 349 ₽</option>
+                        <option value="Носки Звёзды и луна">⭐ Носки «Звёзды и луна» — 369 ₽</option>
+                        <option value="Носки с пирожными">🧁 Носки с пирожными — 349 ₽</option>
+                      </optgroup>
+                      <optgroup label="✂️ Короткие (р. 36–45)">
+                        <option value="Носки с котом">🐱 Носки с котом — 399 ₽</option>
+                        <option value="Носки с авокадо">🥑 Носки с авокадо — 379 ₽</option>
+                        <option value="Носки в горошек">⚫ Носки в горошек — 299 ₽</option>
+                        <option value="Носки Молния">⚡ Носки «Молния» — 319 ₽</option>
+                        <option value="Носки Геометрия">🔷 Носки «Геометрия» — 319 ₽</option>
+                      </optgroup>
+                      <optgroup label="📏 Длинные / Гольфы (р. 36–45)">
+                        <option value="Гольфы радужные">🌈 Гольфы радужные — 549 ₽</option>
+                        <option value="Гольфы Шахматы">♟️ Гольфы «Шахматы» — 499 ₽</option>
+                        <option value="Гольфы Зигзаг">〰️ Гольфы «Зигзаг» — 529 ₽</option>
+                        <option value="Гольфы Аргайл">🔶 Гольфы «Аргайл» — 549 ₽</option>
+                        <option value="Гольфы Фламинго">🦩 Гольфы «Фламинго» — 579 ₽</option>
+                      </optgroup>
+                      <optgroup label="😂 Смешные (р. 36–45)">
+                        <option value="Носки с пиццей">🍕 Носки с пиццей — 379 ₽</option>
+                        <option value="Носки с суши">🍣 Носки с суши — 399 ₽</option>
+                        <option value="Носки с корги">🐕 Носки с корги — 399 ₽</option>
+                        <option value="Носки с пришельцами">👽 Носки с пришельцами — 419 ₽</option>
+                        <option value="Носки с кактусом">🌵 Носки с кактусом — 399 ₽</option>
                       </optgroup>
                     </select>
                   </div>
-
                   <button
                     type="submit"
                     className="w-full bg-gray-900 hover:bg-blue-600 text-white font-bold py-4 rounded-xl transition-colors duration-300 mt-2"
